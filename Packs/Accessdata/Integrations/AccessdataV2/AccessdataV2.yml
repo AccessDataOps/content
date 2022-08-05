@@ -248,25 +248,25 @@ script:
     
   - name: accessdata-trigger-workflow
     arguments:
-    - name: automationid
+    - name: Automation ID
       required: true
       description: The Id of the automation workflow.
-    - name: casename
+    - name: Case Name
       required: false
       description: The name of the case.
-    - name: caseids
+    - name: Case IDs
       required: false
       description: Value of caseids.
-    - name: evidencepath
+    - name: Evidence Path
       required: false
       description: The filepath of the evidence.
-    - name: targetips
+    - name: Target IPs
       required: false
       description: Targetips for the collection
-    - name: searchandtagpath
+    - name: SearchandTag Path
       required: false
       description: The filepath of the search and tag .
-    - name: exportpath
+    - name: Export Path
       required: false
       description: The path to export files.
     outputs:
