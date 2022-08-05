@@ -14,8 +14,7 @@ from accessdata.api.filters import and_, or_
 from accessdata.client import Client
 
 # xsoar imports
-from CommonServerPython import *
-import demistomock as demisto
+
 
 """ decorator wrapping demisto commands """
 

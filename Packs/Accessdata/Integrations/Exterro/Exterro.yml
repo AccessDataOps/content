@@ -1,11 +1,11 @@
 commonfields:
-  id: AccessData
+  id: Exterro
   version: -1
 
-name: AccessData
-display: AccessData
+name: Exterro
+display: Exterro
 category: Forensics & Malware Analysis
-description: Use the AccessData package to integrate with the AccessData platform enabling the automation of case/evidence management and endpoint collection.
+description: Use the Exterro package to integrate with the Exterro FTK platform enabling the automation of case/evidence management and endpoint collection.
 
 configuration:
 - display: Web Protocol
@@ -250,6 +250,7 @@ script:
     arguments:
     - name: Automation ID
       required: true
+      type: number
       description: The Id of the automation workflow.
     - name: Case Name
       required: false
