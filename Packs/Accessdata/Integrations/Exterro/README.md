@@ -67,7 +67,7 @@ accessdata-trigger-workflow Automation ID=233 Case Name="Test case_name" Evidenc
 ##### Context Example
 ```
 {
-    Accessdata.Workflow.Status
+    Accessdata.Workflow
     {
         'Status': True
     }
