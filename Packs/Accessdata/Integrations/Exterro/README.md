@@ -54,12 +54,12 @@ Triggers the automation job and returns a string.
 
 
 ##### Command Example
-Automation workflow Id 232 is designed for Agent Memory collection in FTK Connect and below command can be used to trigger the automation job.
+If automation workflow Id 232 is designed for Agent Memory collection in FTK Connect, then below command can be used to trigger the automation job from cortex xsoar.
 ```
 accessdata-trigger-workflow Automation ID=232 Target IPs=X.X.X.X
 ```
 ##### Command Example
-Automation workflow Id 233 is designed to create new case, add and process the evidence from provided path in FTK Connect and below command can be used to trigger the automation job.
+If automation workflow Id 233 is designed to create new case, add and process the evidence from provided path in FTK Connect, then below command can be used to trigger the automation job from cortex xsoar.
 ```
 accessdata-trigger-workflow Automation ID=233 Case Name="Test case_name" Evidence Path="\\X.X.X.X\ProjectData\Evidences\AR"
 ```
