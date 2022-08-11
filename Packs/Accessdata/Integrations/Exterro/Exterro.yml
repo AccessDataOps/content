@@ -65,7 +65,7 @@ script:
       type: string
     description: Returns a boolean value.
 
-  dockerimage: devdemisto/accessdata:1.1.0.32736
+  dockerimage: demisto/accessdata:1.1.0.32812
   runonce: false
   script: '-'
   type: python
