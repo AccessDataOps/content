@@ -32,7 +32,7 @@ def wrap_demisto_command(command):
 
 """ register demisto commands """
 
-@wrap_demisto_command("accessdata-trigger-workflow")
+@wrap_demisto_command("exterro-ftk-trigger-workflow")
 def _trigger_workflow(client, **kwargs):
     result = client.connect.trigger(**kwargs)
     if result["Status"]!=True:
