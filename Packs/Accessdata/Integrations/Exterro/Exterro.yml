@@ -1,11 +1,11 @@
 commonfields:
-  id: Exterro
+  id: Exterro FTK
   version: -1
 
-name: Exterro
-display: Exterro
+name: Exterro FTK
+display: Exterro FTK
 category: Forensics & Malware Analysis
-description: Use the Exterro package to integrate with the Exterro FTK platform enabling the automation of case/evidence management and endpoint collection.
+description: Use the Exterro FTK integration to protect against and provide additional visibility into phishing and other malicious email attacks.			
 
 configuration:
 - display: Web Protocol
@@ -35,7 +35,7 @@ configuration:
   
 script:
   commands:    
-  - name: accessdata-trigger-workflow
+  - name: exterro-ftk-trigger-workflow
     arguments:
     - name: Automation ID
       required: true
