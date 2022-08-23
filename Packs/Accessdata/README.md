@@ -1,3 +1,3 @@
-Use the Exterro FTK integration to protect against and provide additional visibility into phishing and other malicious email attacks.	
-			
-			
+Use as a sub-playbook to dump memory if given process is running on legacy Exterro agent.
+
+Upon detection of increased network traffic, use an automated Cortex XSOAR playbook and FTK Connect to initiate collection of a covert memory dump. Once the memory dump is collected, you can proceed with the investigation and recovery of saved passwords, open network connections, or recover an entire webpage.

@@ -23,7 +23,7 @@ This playbook uses the following integration.
 
 |**Path** | **Description** | **Type** |
 | --- | --- | --- |
-| Accessdata.Workflow.Status | Indicates response of the API used to trigger FTK Connect automation job | boolean |
+| ExterroFTK.Workflow.Status | Indicates response of the API used to trigger FTK Connect automation job | boolean |
 
 ## Playbook Image
 

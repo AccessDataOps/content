@@ -5,7 +5,7 @@ Documentation for the integration was provided by FTK Connect.
 ## Configure Exterro on Cortex XSOAR
 
 1.  Navigate to **Settings** > **Integrations** > **Servers & Services**.
-2.  Search for Exterro.
+2.  Search for Exterro FTK.
 3.  Click **Add instance** to create and configure a new integration instance.
 
     | **Parameter** | **Description** | **Example** |
@@ -31,7 +31,7 @@ Triggers the automation job and returns a string.
 
 ##### Base Command
 
-`accessdata-trigger-workflow`
+`exterro-ftk-trigger-workflow`
 
 ##### Input
 
@@ -50,24 +50,24 @@ Triggers the automation job and returns a string.
 
 | **Path** | **Type** | **Description** |
 | --- | --- | --- |
-| Accessdata.Workflow.Status | string | The Status of the automation workflow trigger. |
+| ExterroFTK.Workflow.Status | string | The Status of the automation workflow trigger. |
 
 
 ##### Command Example
 If automation workflow Id 232 is designed for Agent Memory collection in FTK Connect, then below command can be used to trigger the automation job from cortex xsoar.
 ```
-accessdata-trigger-workflow Automation ID=232 Target IPs=X.X.X.X
+exterro-ftk-trigger-workflow Automation ID=232 Target IPs=X.X.X.X
 ```
 ##### Command Example
 If automation workflow Id 233 is designed to create new case, add and process the evidence from provided path in FTK Connect, then below command can be used to trigger the automation job from cortex xsoar.
 ```
-accessdata-trigger-workflow Automation ID=233 Case Name="Test case_name" Evidence Path="\\X.X.X.X\ProjectData\Evidences\AR"
+exterro-ftk-trigger-workflow Automation ID=233 Case Name="Test case_name" Evidence Path="\\X.X.X.X\ProjectData\Evidences\AR"
 ```
 
 ##### Context Example
 ```
 {
-    Accessdata.Workflow
+    ExterroFTK.Workflow
     {
         'Status': True
     }

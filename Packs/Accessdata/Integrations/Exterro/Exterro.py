@@ -38,7 +38,7 @@ def _trigger_workflow(client, **kwargs):
     if result["Status"]!=True:
         raise ValueError("Failed to trigger automation workflow.",result["Status"])
 
-    return CommandResults(outputs_prefix='Accessdata.Workflow',
+    return CommandResults(outputs_prefix='ExterroFTK.Workflow',
             outputs_key_field='Status',
             outputs=result)
 
