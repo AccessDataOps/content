@@ -1,3 +1,3 @@
-Use as a sub-playbook to dump memory if given process is running on legacy Exterro agent.
+Use the Exterro package to integrate with the Exterro FTK Suite, enabling the playbook automation of incident response workflows upon detection of a possible threat.  
 
-Upon detection of increased network traffic, use an automated Cortex XSOAR playbook and FTK Connect to initiate collection of a covert memory dump. Once the memory dump is collected, you can proceed with the investigation and recovery of saved passwords, open network connections, or recover an entire webpage.
+With the Exterro FTK Connect automation platform, users can now leverage Cortex XSOARs security orchestration and automation capabilities to trigger the immediate capture and preservation of endpoint evidence by FTK Enterprise, FTK Central, or FTK Lab. This seamless handoff of data is crucial for incident investigation and recovery, as well as avoiding potential data spoliation.
